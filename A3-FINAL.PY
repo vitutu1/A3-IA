@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 def load_data():
-    dataset = "breast+cancer+wisconsin+diagnostic/wdbc.data"
+    dataset = "wdbc.data"
     data = pd.read_csv(dataset, header=None)
     data.columns = ['ID', 'target'] + [f'feature_{i}' for i in range(1, 31)]
     return data
