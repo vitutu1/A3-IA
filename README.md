@@ -12,4 +12,6 @@ pip install pyplot
 
 pip install seaborn
 
+cmd - streamlit run A3-FINAL.py
+
 take care with dataset location (dataset = "wdbc.data")
